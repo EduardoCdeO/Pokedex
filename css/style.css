@@ -36,21 +36,27 @@ main {
 .pokemon__type {
     position: absolute;
     font-weight: 600;
-    color: rgb(75, 80, 78);
+    color: rgb(235, 235, 235);
     top: 28%;
     right: 28%;
-    font-size: clamp(8px, 5vw, 20px);
+    font-size: clamp(7px, 4vw, 15px);
     text-transform: uppercase;
 }
 
 .pokemon__type2 {
     position: absolute;
     font-weight: 600;
-    color: rgb(75, 80, 78);
+    color: rgb(235, 235, 235);
     top: 31%;
     right: 28%;
-    font-size: clamp(8px, 5vw, 20px);
+    font-size: clamp(7px, 4vw, 15px);
     text-transform: uppercase;
+}
+
+.pokeball {
+    position: absolute;
+    top: 28.5%;
+    right: 77%;
 }
 
 .pokemon__data {
