@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Links -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="icon" href="/favicons/pokeball-16x16.png">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Javascript -->
+    <script defer src="/js/script.js"></script>
+
+    <title>Pokédex</title>
+</head>
+<body>
+   
+    <main>
+        <img src="#" alt="pokemon", class="pokemon__image">
+
+        <span class="pokemon__type"></span>
+        <span class="pokemon__type2"></span>
+
+        <h1 class="pokemon__data">
+            <span class="pokemon__number"></span> -
+            <span class="pokemon__name"></span>
+        </h1>
+
+        <form class="form">
+            <input 
+                type="search"
+                class="input__search"
+                placeholder="Name or Number"
+                required
+            />
+        </form>
+
+        <div class="buttons">
+            <button id="prev" class="button btn-prev">
+                <i class="material-icons" style="font-size: 190%;">arrow_back</i>
+            </button>
+            <button id="shiny" class="button btn-shiny">
+                <i class="material-icons" style="font-size: 190%;color: yellow;">star</i>
+            </button>
+            <button id="next" class="button btn-next">
+                <i class="material-icons" style="font-size: 190%;">arrow_forward</i>
+            </button>
+        </div>
+
+        <img src="/images/pokedex.png" alt="pokedex" class="pokedex">
+
+    </main>
+
+</body>
+</html>
